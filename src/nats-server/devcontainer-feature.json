@@ -1,0 +1,18 @@
+{
+    "id": "nats-server",
+    "version": "1.0.0",
+    "name": "nats-server (via GitHub Releases)",
+    "documentationURL": "",
+    "description": "NATS Server",
+    "options": {
+        "version": {
+            "default": "latest",
+            "description": "Select the version to install.",
+            "proposals": [
+                "latest"
+            ],
+            "type": "string"
+        }
+    },
+    "installsAfter": []
+}
