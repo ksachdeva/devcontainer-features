@@ -1,9 +1,9 @@
 {
-    "id": "nats-server",
+    "id": "natscli",
     "version": "1.0.0",
-    "name": "nats-server (via GitHub Releases)",
-    "documentationURL": "https://github.com/ksachdeva/devcontainer-features/tree/main/src/nats-server",
-    "description": "High-Performance server for NATS.io, the cloud and edge native messaging system.",
+    "name": "natscli (via GitHub Releases)",
+    "documentationURL": "https://github.com/ksachdeva/devcontainer-features/tree/main/src/natscli",
+    "description": "The NATS Command Line Interface",
     "options": {
         "version": {
             "default": "latest",
