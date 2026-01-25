@@ -1,0 +1,18 @@
+{
+    "id": "presenterm",
+    "version": "1.0.0",
+    "name": "presenterm (via GitHub Releases)",
+    "documentationURL": "https://github.com/ksachdeva/devcontainer-features/tree/main/src/presenterm",
+    "description": "presenterm is a terminal based presentation tool",
+    "options": {
+        "version": {
+            "default": "latest",
+            "description": "Select the version to install.",
+            "proposals": [
+                "latest"
+            ],
+            "type": "string"
+        }
+    },
+    "installsAfter": []
+}
