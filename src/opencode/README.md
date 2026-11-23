@@ -15,7 +15,7 @@ Installs the OpenCode CLI and prepares a writable storage directory for its data
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | opencode-ai npm version to install. | string | latest |
+| version | @opencode/cli npm version to install. | string | latest |
 | install | Install the CLI. Set to false to only prepare the storage directory. | boolean | true |
 
 ## Database storage
