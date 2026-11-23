@@ -1,0 +1,12 @@
+{
+    "id": "ssh-setup",
+    "version": "1.0.0",
+    "name": "SSH public key setup",
+    "documentationURL": "https://github.com/ksachdeva/devcontainer-features/tree/main/src/ssh-setup",
+    "description": "Configures optional SSH public-key access and persistent SSH host identity",
+    "dependsOn": {
+        "ghcr.io/devcontainers/features/common-utils:2": {},
+        "ghcr.io/devcontainers/features/sshd:1": {}
+    },
+    "postCreateCommand": "/usr/local/bin/devcontainer-ssh-setup"
+}
