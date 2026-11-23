@@ -10,3 +10,4 @@ Repository for various custom devcontainer features
 | nats-top    | NATS server monitoring tool | [README](./src/nats-top/README.md)    |
 | natscli     | NATS command-line client    | [README](./src/natscli/README.md)     |
 | presenterm  | Presentation in Terminal    | [README](./src/presenterm/README.md)  |
+| opencode    | OpenCode CLI + persistent storage | [README](./src/opencode/README.md) |
