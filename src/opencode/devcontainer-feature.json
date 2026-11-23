@@ -1,13 +1,13 @@
 {
     "id": "opencode",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "OpenCode (with writable storage)",
     "documentationURL": "https://github.com/ksachdeva/devcontainer-features/tree/main/src/opencode",
     "description": "Installs the OpenCode CLI and prepares a writable storage directory for its database",
     "options": {
         "version": {
             "default": "latest",
-            "description": "opencode-ai npm version to install.",
+            "description": "@opencode/cli npm version to install.",
             "proposals": [
                 "latest"
             ],

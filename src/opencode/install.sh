@@ -19,8 +19,8 @@ if [ "$INSTALL" = "true" ]; then
     if ! command -v npm >/dev/null 2>&1; then
         echo "npm not found: add the node feature (installsAfter handles ordering) or set install=false." >&2
         exit 1
-    fi
-    npm install -g "opencode-ai@${VERSION}"
+    fi        
+    npm install -g --allow-scripts=@opencode/cli "@opencode/cli@${VERSION}"
 fi
 
 echo 'Done!'
